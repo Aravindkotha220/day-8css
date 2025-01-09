@@ -1,0 +1,55 @@
+
+  .container{
+    width:100%;
+    border: 4px solid black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    transition: 0.5s;
+  
+  }
+  .container>.box-1{
+      width: 350px;
+      height:300px;
+      border: 10px;
+      margin: 10px;
+      display: flex;
+      position: relative;  
+  }
+  img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  p{
+   
+   color: white;
+   position: absolute;
+   top:-25px;
+   left:0px;
+   opacity: 0;
+   transform: translate(-0%-0%);
+   justify-content: center;
+   text-align: center;
+   align-items: center;
+   align-content: center;
+  
+  }
+  .box-1:hover>p{
+    opacity: 2;
+    transition: 0.5s;
+    background-color: black;
+    transition-timing-function: ease;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    height:100%;
+    width: 100%;
+    display: block;
+  }
+  
